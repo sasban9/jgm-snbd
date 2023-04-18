@@ -14,9 +14,10 @@
     *{font-size:0.9rem}
     td div{margin: 0 auto;}
     img{height: 100px}
+    table tr td:nth-of-type(-n+2) {white-space: nowrap}
     table tr:nth-of-type(2n+1) td:nth-of-type(3) {background-color: #000; color: #fff;}
     table tr td:nth-of-type(4) {background-color: bisque;}
-    table tr td:nth-of-type(5) {background-color: yellowgreen;}
+    table tr td:nth-of-type(5) {background-color: lightskyblue;}
     table tr td:nth-of-type(6) {background-color: plum;}
     table tr:nth-of-type(2n) {background-color: #ddd;}
   </style>
@@ -26,7 +27,7 @@
     <div class="container">
         <div class="row mt-3">
             <div class="col-12">
-                <table class="table-sm w-100 table-striped text-center" style="margin: 0 auto;">
+                <table class="table-sm table-striped text-center" style="margin: 0 auto;">
                     <tr></tr>
                     <tr>
                         <th>Date</th><th>Travel</th><th>Duration</th><th>Bangalore</th><th>Kolkata</th><th>Silchar</th><th>Others</th>
@@ -38,25 +39,25 @@
                         <td>30 APR 2023</td><td>SB < CCU</td><td colspan="5">SB returns from Kolkata with lots of gifts.</td>
                     </tr>
                     <tr>
-                        <td></td><td></td><td>6 days</td><td><img src="https://en.pimg.jp/074/398/609/1/74398609.jpg" alt=""></td><td><img src="https://avatars.githubusercontent.com/u/5223601?v=4" alt=""></td><td></td><td></td>
+                        <td></td><td></td><td>6 days</td><td></td><td></td><td></td><td></td>
                     </tr>
                     <tr>
                         <td>24 APR 2023</td><td>SB > BBI</td><td colspan="5">SB goes to BBI to join a road trip to Jhargram and sale of ancestral land there.</td>
                     </tr>
                     <tr>
-                        <td></td><td></td><td>100 days</td><td><div style="background:url(img/family1.jpg) 50% 50%;background-size: cover;height: 100px;width: 100px;"></div></td><td></td><td></td>
+                        <td></td><td></td><td>100 days</td><td><div style="background:url(img/saswata/family-20230416.jpg) 50% 50%;background-size: cover;height: 100px;width: 100px;"></div></td><td></td><td></td>
                     </tr>
                     <tr>
                         <td>15 JAN 2023</td><td>BB < GOI</td><td colspan="5">BB returns from a fantastic vacation in Goa with the girls. Sabya missed his mumma.</td>
                     </tr>
                     <tr>
-                        <td></td><td></td><td>3 days</td><td><img src="https://en.pimg.jp/074/398/609/1/74398609.jpg" alt=""></td><td></td><td></td><td><img src="https://i.pinimg.com/280x280_RS/2d/34/d4/2d34d4a132847f5a3648b63f7cf81f89.jpg" /><br>GOA</td>
+                        <td></td><td></td><td>3 days</td><td></td><td></td><td></td><td>BB in GOA</td>
                     </tr>
                     <tr>
                         <td>12 JAN 2023</td><td>BB > GOI</td><td colspan="5">BB goes on girls trip to GOA.</td>
                     </tr>
                     <tr>
-                        <td></td><td></td><td>3 days</td><td><div style="background:url(img/family1.jpg) 50% 50%;background-size: cover;height: 100px;width: 100px;"></div></td><td></td><td></td>
+                        <td></td><td></td><td>3 days</td><td>ALL @ BLR</td><td></td><td></td>
                     </tr>
                     <tr>
                         <td>09 JAN 2023</td><td>SB &laquo; CCU</td><td colspan="5">SB returns after spending 10 days in Kolkata.</td>
@@ -68,13 +69,13 @@
                         <td>30 DEC 2022</td><td>SB > HWH</td><td colspan="5">SB travels to Kolkata to prepare for succession ceritificate and attend a friend's wedding.</td>
                     </tr>
                     <tr>
-                        <td></td><td></td><td>21 days</td><td><div style="background:url(img/family1.jpg) 50% 50%;background-size: cover;height: 100px;width: 100px;"></div></td><td></td><td></td>
+                        <td></td><td></td><td>21 days</td><td><div style="background:url(img/saswata/family-20230416.jpg) 50% 50%;background-size: cover;height: 100px;width: 100px;"></div></td><td></td><td></td>
                     </tr>
                     <tr>
                         <td>09 DEC 2022</td><td>ALL &laquo; IXS</td><td colspan="5">The family returns to BLR safely. PP was lying empty for 81 days</td>
                     </tr>
                     <tr>
-                        <td></td><td></td><td>9 days</td><td></td><td></td><td><div style="background:url(img/family1.jpg) 50% 50%;background-size: cover;height: 100px;width: 100px;"></div></td>
+                        <td></td><td></td><td>9 days</td><td></td><td></td><td><div style="background:url(img/saswata/family-20230416.jpg) 50% 50%;background-size: cover;height: 100px;width: 100px;"></div></td>
                     </tr>
                     <tr>
                         <td>30 NOV 2022</td><td>SB > SIL</td><td colspan="5">SB goes to Silchar to pickup BB & SB2 and return to BLR next week</td>
@@ -86,10 +87,61 @@
                         <td>19 SEP 2022</td><td>BB > 1XS</td><td colspan="5">BB flies to IXS as previously planned, to stay at maternal home during the pujas. SB visits friend's place in Ranchi during Diwali.</td>
                     </tr>
                     <tr>
-                        <td></td><td></td><td>6</td><td><img src="https://en.pimg.jp/074/398/609/1/74398609.jpg" alt=""></td><td><img src="https://avatars.githubusercontent.com/u/5223601?v=4" alt=""></td><td></td>
+                        <td></td><td></td><td>6 days</td><td><img src="https://en.pimg.jp/074/398/609/1/74398609.jpg" alt=""></td><td><img src="https://avatars.githubusercontent.com/u/5223601?v=4" alt=""></td><td></td>
                     </tr>
                     <tr>
                         <td>13 SEP 2022</td><td>SB > CCU <i class="fa fa-plane"></i></td><td colspan="5">SB goes to Kolkata to perform last rites of AB</td>
+                    </tr>
+                    <tr>
+                        <td></td><td></td><td>13 days</td><td><div style="background:url(img/saswata/family-20230416.jpg) 50% 50%;background-size: cover;height: 100px;width: 100px;"></div></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td>31 AUG 2022</td><td>SB < SIN <i class="fa fa-plane"></i></td><td colspan="5">SB returns from Singapore</td>
+                    </tr>
+                    <tr>
+                        <td></td><td></td><td>7 days</td><td></td><td></td><td></td><td>SB on tour</td>
+                    </tr>
+                    <tr>
+                        <td>24 AUG 2022</td><td>SB > SIN <i class="fa fa-plane"></i></td><td colspan="5">SB goes to SIN on office tour</td>
+                    </tr>
+                    <tr>
+                        <td></td><td></td><td>109 days</td><td><div style="background:url(img/saswata/family-20230416.jpg) 50% 50%;background-size: cover;height: 100px;width: 100px;"></div></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td>07 MAY 2022</td><td>BB < IXS <i class="fa fa-plane"></i></td><td colspan="5">BB returns from Silchar after 8 months</td>
+                    </tr>
+                    <tr>
+                        <td></td><td></td><td>157 days</td><td><img src="https://avatars.githubusercontent.com/u/5223601?v=4" alt=""></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td>01 DEC 2021</td><td>SB > BLR<i class="fa fa-plane"></i></td><td colspan="5">SB returns to Bangalore after spending 10 days on the road - 2 days in JGM and 2 days in BBSR, 1 day in VSG</td>
+                    </tr>
+                    <tr>
+                        <td></td><td></td><td>10 days</td><td></td><td></td><td></td><td>SB on road</td>
+                    </tr>
+                    <tr>
+                        <td>23 NOV 2021</td><td>SB < CCU <i class="fa fa-plane"></i></td><td colspan="5">SB starts on roadtrip from Kolkata to Bangalore</td>
+                    </tr>
+                    <tr>
+                        <td></td><td></td><td>157 days</td><td></td><td><img src="https://avatars.githubusercontent.com/u/5223601?v=4" alt=""></td><td></td>
+                    </tr>
+                    <tr>
+                        <td>18 AUG 2021</td><td>BB > IXS <i class="fa fa-plane"></i></td><td colspan="5">BB leaves Kolkata with Sabya after big fight.</td>
+                    </tr>
+                    <tr>
+                        <td></td><td></td><td>100 days</td><td></td><td><div style="background:url(img/saswata/family-20230416.jpg) 50% 50%;background-size: cover;height: 100px;width: 100px;"></div></td><td></td>
+                    </tr>
+                    <tr>
+                        <td>04 APR 2021</td><td>BB < IXS <i class="fa fa-plane"></i></td><td colspan="5">BB comes to visit Kolkata.</td>
+                    </tr>
+                    <tr>
+                        <td>24 APR 2021</td><td>SB < IXS <i class="fa fa-plane"></i></td><td colspan="5">SB goes to Kolkata from Silchar.</td>
+                    </tr>
+                    <tr>
+                        <td>24 DEC 2020</td><td>SB > IXS <i class="fa fa-plane"></i></td><td colspan="5">SB reaches Silchar just in time for Sabya's first cake day.</td>
+                    </tr>
+                    <tr>
+                        <td>12 AUG 2020</td><td>BB > IXS <i class="fa fa-plane"></i></td><td colspan="5">BB storms off to Silchar with mom and son in tow.</td>
                     </tr>
                 </table>
             </div>
