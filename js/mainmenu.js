@@ -7,8 +7,8 @@ $(function () {
         </button>
         <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
           <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link active" aria-current="page" href="address-list.html">ADDRESS LIST</a>  </li>  
-            <li class="nav-item"> <a class="nav-link active" aria-current="page" href="/jgm2023/">Jhargram</a>  </li> 
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="appendix-1.html">APPENDIX-I</a>  </li>  
+            <li class="nav-item"> <a class="nav-link active" aria-current="page" href="https://sasban9.github.io/jgm2023/">ONLINE</a>  </li> 
             <li class="nav-item"> <a class="nav-link disabled">Paschimbanga</a>  </li>  
             <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"     aria-expanded="false">2023</a> 
               <ul class="dropdown-menu">     
