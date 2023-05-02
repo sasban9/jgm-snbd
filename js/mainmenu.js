@@ -22,7 +22,14 @@ $(function () {
             <li class="nav-item"> <a class="nav-link" href="#2020">2020</a>  </li>  
             <li class="nav-item"> <a class="nav-link" href="#">2019</a>  </li>  
             <li class="nav-item"> <a class="nav-link" href="#">2018</a>  </li>  
-            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"     aria-expanded="false">More</a> <ul class="dropdown-menu">     <li><a class="dropdown-item" href="#bangalore">Bangalore</a></li>     <li><a class="dropdown-item" href="#delhi">Delhi</a></li>     <li><a class="dropdown-item" href="#mumbai">Mumbai</a></li> </ul>  </li> 
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"     aria-expanded="false">More</a> 
+              <ul class="dropdown-menu">     
+                <li><a class="dropdown-item" href="#bangalore">Bangalore</a></li>     
+                <li><a class="dropdown-item" href="#delhi">Delhi</a></li>     
+                <li><a class="dropdown-item" href="#mumbai">Mumbai</a></li> 
+                <li><a class="dropdown-item" href="short-stories.html">Short Stories</a></li> 
+              </ul>  
+            </li> 
           </ul>
         </div>                
       </div >            
