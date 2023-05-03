@@ -26,7 +26,7 @@ $(function () {
               <ul class="dropdown-menu">     
                 <li><a class="dropdown-item" href="#bangalore">Bangalore</a></li>     
                 <li><a class="dropdown-item" href="#delhi">Delhi</a></li>     
-                <li><a class="dropdown-item" href="#mumbai">Mumbai</a></li> 
+                <li><a class="dropdown-item" href="https://github.com/sasban9/jgm2023">C-O-D-E</a></li> 
                 <li><a class="dropdown-item" href="short-stories.html">Short Stories</a></li> 
               </ul>  
             </li> 
