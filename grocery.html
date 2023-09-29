@@ -31,6 +31,10 @@
             background-color: lightsteelblue;
         }
 
+        b {
+            color: red;
+        }
+
         td span{font-family: monospace;color: red;float: right;}
     </style>
 </head>
@@ -479,7 +483,29 @@
             </tbody>
         </table>
 
-        <table class="table table-striped my-4">
+        <table class="table" style="font-family: monospace;margin-top: 200px;">
+            <tr>
+                <td colspan="6" style="background: teal;color: white;"><h2 class="text-center">GROCERY SUMMARY</h2></td>
+            </tr>
+            <tr>
+                <td><b>JAN</b></td>
+                <td>FEB</td>
+                <td>MAR</td>
+                <td><b>APR</b><br>24-08 900.00 (7) <br>16-08 700.00 (9) <br></td>
+                <td><b>MAY</b><br>24-08 900.00 (7) <br>16-08 700.00 (9) <br>14-08 700.00 (3) <br></td>
+                <td><b>JUN</b><br>28TH 1100.00 (7) <br>16-08 700.00 (9) <br></td>
+            </tr>
+            <tr>
+                <td><b>JUL</b><br>30TH 1300.00 (7) <br>29TH 1390.00 (9) <br>26TH 1210.00 (9) <br>23TH 910.00 (9) <br>21TH 980.00 (9) <br>15TH 880.00 (9) <br>12TH 900.00 (9) <br>08TH 590.00 (9) <br>02ND 1000.00 (9) <br></td>
+                <td><b>AUG</b><br>24TH 780.00 (7) <br>16TH 900.00 (9) <br>14TH 450.00 (3) <br>10TH 530.00 (5) <br>08TH 750.00 (7) <br>04TH 1010.00 (5) <br>01ST 990.00 (12)</td>
+                <td><b>SEP</b><br>23TH 750.00 (7) <br>12TH 980.00 (9) <br>11TH 560.00 (9) <br>02TH 900.00 (9) <br></td>
+                <td><b>OCT</b></td>
+                <td><b>NOV</b></td>
+                <td><b>DEC</b></td>
+            </tr>
+        </table>
+
+        <table class="table table-striped my-4 d-none">
             <tr style="text-align: right;">
                 <th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
             </tr>
